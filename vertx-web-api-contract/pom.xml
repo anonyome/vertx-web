@@ -4,24 +4,25 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
+  <properties>
+    <doc.skip>false</doc.skip>
+  </properties>
+  
   <parent>
     <groupId>io.vertx</groupId>
     <artifactId>vertx-web-parent</artifactId>
     <version>3.5.4</version>
   </parent>
 
-  <properties>
-    <doc.skip>false</doc.skip>
-  </properties>
-
   <artifactId>vertx-web-api-contract</artifactId>
+  <version>3.5.4-ANONYOME-1</version>
 
   <dependencies>
 
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web</artifactId>
-      <version>${project.version}</version>
+      <version>3.5.4</version>
     </dependency>
     <dependency>
       <groupId>com.networknt</groupId>
@@ -43,7 +44,7 @@
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-auth-jwt</artifactId>
-      <version>${project.version}</version>
+      <version>3.5.4</version>
       <optional>true</optional>
     </dependency>
 
@@ -51,13 +52,13 @@
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web</artifactId>
       <type>test-jar</type>
-      <version>${project.version}</version>
+      <version>3.5.4</version>
       <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>io.vertx</groupId>
       <artifactId>vertx-web-client</artifactId>
-      <version>${project.version}</version>
+      <version>3.5.4</version>
       <scope>test</scope>
     </dependency>
     <dependency>
