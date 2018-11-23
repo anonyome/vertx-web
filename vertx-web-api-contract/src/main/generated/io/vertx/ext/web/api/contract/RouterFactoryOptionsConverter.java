@@ -24,9 +24,9 @@ import io.vertx.core.json.JsonArray;
  *
  * NOTE: This class has been automatically generated from the {@link io.vertx.ext.web.api.contract.RouterFactoryOptions} original class using Vert.x codegen.
  */
- class RouterFactoryOptionsConverter {
+public class RouterFactoryOptionsConverter {
 
-   static void fromJson(JsonObject json, RouterFactoryOptions obj) {
+  public static void fromJson(JsonObject json, RouterFactoryOptions obj) {
     if (json.getValue("mountNotImplementedHandler") instanceof Boolean) {
       obj.setMountNotImplementedHandler((Boolean)json.getValue("mountNotImplementedHandler"));
     }
@@ -41,7 +41,7 @@ import io.vertx.core.json.JsonArray;
     }
   }
 
-   static void toJson(RouterFactoryOptions obj, JsonObject json) {
+  public static void toJson(RouterFactoryOptions obj, JsonObject json) {
     json.put("mountNotImplementedHandler", obj.isMountNotImplementedHandler());
     json.put("mountResponseContentTypeHandler", obj.isMountResponseContentTypeHandler());
     json.put("mountValidationFailureHandler", obj.isMountValidationFailureHandler());
