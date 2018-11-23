@@ -1,5 +1,5 @@
 language: java
-script: mvn -f vertx-web-api-contract/pom.xml install source:jar javadoc:jar -B
+script: mvn -f vertx-web-api-contract/pom.xml install source:jar javadoc:jar -B  
 deploy:
   provider: releases
   api_key:
