@@ -1,9 +1,9 @@
 language: java
-script: mvn -f vertx-web-api-contract/pom.xml install source:jar javadoc:jar -B  
+script: mvn -f vertx-web-api-contract/pom.xml install source:jar javadoc:jar -B
 deploy:
   provider: releases
   api_key:
-    secure: DEqnX3iaBipn+V/VlSu0KbjNziU9JadpI0WzBKzy1bJnpuzs6L1NDuAh+AgZn0q1ykocY8SQu/Zc3Vn9+bdwtM3vQmpleJf0KTTBnX+oiyMOu/mE34OIGc+p7BNaayUim5rcR0jdxSZtBiwVX3ezoJcPA3H6Ulrp3b2vs9mIkdBGEJSvC0tUklGNdPlI8BV6MrT4O7/sSiHtXX5GCibLpwjThqK9gYig4U4SqrJhfDucaTCxGUgAFFyT9SkLbAEs+IsSOHNqNOkhRgemJ6BpleLHf7cSXGYk7WdsO7y5dXle8E5sRiBXl6uKle/33D+Z9KLU+2wvEnJHhJJruTFTkwc5+ft8yBTLXOrRWUMpJ5rl8PcMdaGxYjzcQy5R89cqL0AbhdnmFuNaUgPs7OxNC1J6stgWbMfvUe7TnpQOPxUqmqyKsF8w3JQ05jWuPXpXxWiVnXasq6VI2w5GT8FGG5hoMzt89V55BSVrqqMeWGy0pzshGWasTOdJJPY6gHcwg/u3qCbJwx2QrZESqmebXcrQ+cEPmkwQdEkidQM5fTXhaNibFKSD8IrmK0Uvy183/Gpd0TIszBAdAtOC4AQOJm7/QFjureB+uoyU3sWHr9vJoBzYESj23JEr42xNZZCgyTM5F9lBTsOyStxCAqF6u4B0HY9FgvGrSWVSgqw7EY0=
+    secure: mNR0eyXVnmDNSuBmi+OxUEnbLRw/B/mMUI5K8VZbWBsFtY3C9OEiH6BZxD41rFuVDRYrzHNmzKXj3Th6mHDFqyoWZOe7QwpsEY2cbHnMsVFKBIKh47vhk14RQkuRlzrWAVR52ArowWca15jvmmvm9ieMaUgRR+ix/KnwNKjdmymVPQn/00ImYmXunf9Ia3gIha8+zmyBKXcfhUrp5SYtF5d1YZQfQpRlve5f8SQ/l6Le/TnhpPd8sTpICl2ZYuXBI2fORh4BXk77z7EupiWl+Y2i7Td1NvplzmDoaZLa/QJYKVyj1snceZjsOdbbCv+64dDXHLImlwyA6NFO8RjuECcm0ZzQrHDWaWE79AMydYjy/TrTOVtsRmZi4TO5RcXzJgaulD8JiUZMmnAH6j/a+OcvV2eD59pr2Zna6PwyxuZcIwgwGfWs9vpaPuEWoFNcRXvB1NOaY3WMFc2mGncACSBabaoAJWj2xXj/r+Uiyu01N++4zcBkT6FkmG+mVKwRqxnAUZV/p/C2f867r0IhPUO3OuJJ31U/9tZvRiuGYztHV/w0b1xpSw6WlXGZvv7SoxKzjCSR+ApD4A/tifpgd9WBa9LMK07alJJO1IOijScbqIonpgvVL0r0n8aoyFiYglStsAABRiza2uDOsaMNbZ211fnohSdPH8y/I/Vp+78=
   overwrite: true
   skip_cleanup: true
   file:
@@ -13,5 +13,5 @@ deploy:
   - vertx-web-api-contract/target/vertx-web-api-contract-3.5.4-ANONYOME-1-javadoc.jar
   on:
     repo: anonyome/vertx-web
-    branch: anonyome-2.9.4
-    tags: true
+    branch: anonyome-3.5.4
+    tags: true   
