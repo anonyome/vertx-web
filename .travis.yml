@@ -12,6 +12,6 @@ deploy:
   - vertx-web-api-contract/target/vertx-web-api-contract-3.5.4-ANONYOME-1-sources.jar
   - vertx-web-api-contract/target/vertx-web-api-contract-3.5.4-ANONYOME-1-javadoc.jar
   on:
-    repo: anonyome/mongojack
+    repo: anonyome/vertx-web
     branch: anonyome-2.9.4
     tags: true
